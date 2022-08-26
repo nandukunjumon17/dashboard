@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: whitesmoke;
+    width: 90px;
+    overflow: hidden;
+    transition:width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+a{
+    position: relative;
+    color: grey;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 100px;
+    top: 14px;
+    font-size:20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: #eee;
+    color: rgb(16, 153, 137);
+
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+
+h5{
+    float: left;
+    margin-top: 17px;
+}
+.logo{
+    margin-left: 20rem;
+
+}
+#myChart{
+    width: 400px;
+    height: 400px;
+}
+
+.d-flex{
+    width: 250px ;
+    height: 125px;
+    margin-left: 450;
+    background-color: white;
+    float: left;
+    margin: 5px;
+    box-shadow: rgba(200, 39, 39, 0.571) -2px 1px;
+    z-index: 2;
+    border-radius: 20px;
+}
+#contain{
+    padding-top: 2rem;
+}
+.text{
+    font-size: small;
+    justify-items: center;
+    margin-top: 50px;
+}
+#divChart{
+    margin-top: 35px;
+    width: 400;
+   border: 1px solid yellow;
+}
+#task{
+    width: 400px;
+    height: 400px;
+z-index: 2;
+}
